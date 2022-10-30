@@ -1,0 +1,5 @@
+input()
+M=float(input())
+s=float(input())
+money='{:.2f}'.format(M+0.15*s)
+print('TOTAL = R$',money)

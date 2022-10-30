@@ -1,0 +1,7 @@
+a=input().split()
+b=input().split()
+ax=float(a[0])
+ay=float(a[1])
+bx=float(b[0])
+by=float(b[1])
+print('{:.4f}'.format(((ax-bx)**2+(ay-by)**2)**(1/2)))
